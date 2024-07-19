@@ -24,7 +24,9 @@ spec:
   - name: output-image
     value: quay.io/redhat-user-workloads/ose-osc-tenant/trustee/trustee-fbc:{{revision}}
   - name: dockerfile
-    value: Dockerfile
+    value: catalog.Dockerfile
+  - name: path-context
+    value: v4.16
   pipelineSpec:
     finally:
     - name: show-sbom
