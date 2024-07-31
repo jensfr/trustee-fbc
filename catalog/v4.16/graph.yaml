@@ -16,7 +16,7 @@
             "schema": "olm.channel"
         },
         {
-            "image": "quay.io/redhat-user-workloads/ose-osc-tenant/trustee/trustee-operator-bundle@sha256:98f60886849d79841e9d806cfb9c49a9ad0517ba0a040dd752fbbf027e6fa8f9",
+            "image": "quay.io/redhat-user-workloads/ose-osc-tenant/trustee/trustee-operator-bundle@sha256:4e8a5c8e643603d9e658462a59c6680a043fbb6a41fb2bed139753f4944f4a06",
             "schema": "olm.bundle"
         }
     ],
